@@ -8,9 +8,10 @@
 * Design, train and test a model architecture
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
+* Summarize the results with a written report  
 
 Complete codes and results for this project can be found in the  [`Traffic_Sign_Classifier.ipynb`](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+
 ------
 
 ### 1. Data Set Summary & Exploration
@@ -35,17 +36,19 @@ Data set summary:
 *1.2: Exploratory visualization of dataset* in [`Traffic_Sign_Classifier.ipynb`](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb).
 
 Histogram of label counts:
-As can be seen from the histogram, we have randomly distributed numbers of images from each label. However, there is no class with significantly small number of images. Thus, we will not have problem with training all classes with a neural network. Codes can be found in the second cell of section **1.2**.
+As can be seen from the histogram, we have randomly distributed numbers of images from each label. However, there is no class with significantly small number of images. Thus, we will not have problem with training all classes with a neural network. Codes can be found in the second cell of section **1.2**.  
 
-    ![labels count distribution](./report_fig/11.png)
+![labels count distribution](./report_fig/11.png)  
 
-Four sample images from each class:
-    ![sample traffic sign images](./report_fig/12.png)  
+Four sample images from each class:  
+![sample traffic sign images](./report_fig/12.png)  
+
+
 The above image shows that German traffic sign images come in different brightness and may contain multiple instances of nearly same images. Moreover, some signs are hard to read with bare eyes, such as the first and last images of label - 23.  
 In this report four sample images from three random labels are displayed. Full list of images can be found in the 5th cell of section **1.2**
 
-Dark/bright images:
-    ![bright/dark sign images](./report_fig/12.png)
+Dark/bright images:  
+![bright/dark sign images](./report_fig/12.png)  
 This image shows traffic sign images from two extreme brightnesses. Some traffic signs may be difficult to distinguish with bare eyes due to they being overly bright or dark. Codes for this section can be found in 6th cell of section **1.2**  
 
 The training data set contained images that are not distinguishable with human eyes. For this reason, training images were pre-processed with normalization method to enhance their visual qualities. However, testing out with the normalized images resulted in worse performance compared to using unprocessed images. This will be further discussed in section 2.1 Pre-process the Data Set.
