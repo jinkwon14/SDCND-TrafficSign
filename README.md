@@ -2,7 +2,6 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## Overview
----
 In this project, deep neural networks and convolutional neural networks will be used to classify traffic signs. A model will be trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, the model will be tested on images of German traffic signs that can be found on the web.
 
 Please check out both the project summary included in this README as well as codes in the [Ipython notebook](https://github.com/jinkwon14/SDCND_TrafficSign/blob/master/Traffic_Sign_Classifier.ipynb
