@@ -1,13 +1,13 @@
 ## Project: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-Overview
+##Overview
 ---
 In this project, deep neural networks and convolutional neural networks will be used to classify traffic signs. A model will be trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, the model will be tested on images of German traffic signs that can be found on the web.
 
 Please check out both the project summary included in this README as well as codes in the [Ipython notebook](https://github.com/jinkwon14/SDCND_TrafficSign/blob/master/Traffic_Sign_Classifier.ipynb
 
-# Summary/report
+## Summary/report
 
 0. Goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -73,7 +73,7 @@ Please refer to *Step 2: Design and Test a Model Architecture* in [`Traffic_Sign
 Provided dataset contained images with varying brightness/darkness. Thus, images were pre-processed using a normalization method. Normalizing images was intended to process data dimensions to fall under approximately the same scale  [reference](http://cs231n.github.io/neural-networks-2/#batchnorm).
 However, the validation/test accuracies turned out to be worse with the normalized images (0.858 versus 0.911). For this reason, normalization was discarded.  
 
-Possible reason for the worse traning with normalized images could be due to the colors of traffic signs (red, blue, and yellow) contributing significantly to the classification process.  
+Possible reason for the worse training with normalized images could be due to the colors of traffic signs (red, blue, and yellow) contributing significantly to the classification process.  
 Below are images of arbitrary traffic signs before and after normalization.
 
  ![normalization](./report_fig/21.png)
@@ -153,7 +153,7 @@ Please refer to *Step 3: Test a Model on New Images* in [`Traffic_Sign_Classifie
 
 #### 3.1 Image Specifications
 Five random German Traffic Signs were capture from Google image search. Five images are displayed below:
-    ![Fice German Traffic Images](./report_fig/31.png)
+    ![Fice German Traffic Images](./report_fig/31.png)  x
 Label for each image was hard coded by comparing with sample test images from above. From the top, numerical label for each image is 38, 13, 18, 12, and 28  
 
 Images chosen are easy to classify for them having vivid colors and shapes. I assumed that the last image from the list will be the most difficult to classify due to the complex nature of the sign; an image of an adult holding hand of a child.
