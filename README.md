@@ -153,7 +153,9 @@ Please refer to *Step 3: Test a Model on New Images* in [`Traffic_Sign_Classifie
 
 #### 3.1 Image Specifications
 Five random German Traffic Signs were capture from Google image search. Five images are displayed below:
-    ![Fice German Traffic Images](./report_fig/31.png)  x
+    ![Fice German Traffic Images](./report_fig/31.png)    
+
+    
 Label for each image was hard coded by comparing with sample test images from above. From the top, numerical label for each image is 38, 13, 18, 12, and 28  
 
 Images chosen are easy to classify for them having vivid colors and shapes. I assumed that the last image from the list will be the most difficult to classify due to the complex nature of the sign; an image of an adult holding hand of a child.
